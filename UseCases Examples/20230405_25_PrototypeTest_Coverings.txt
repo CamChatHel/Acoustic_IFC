@@ -1,0 +1,15 @@
+Welcome to Model Healing for Junction Analysis!
+Please choose the path and filename you want to analyse.
+Selected File: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\20230405_25_PrototypeTest_Coverings.ifc
+Continue with this file? Yes (y) or No (n)
+y
+IfcBuildingStorey: OK
+Elements Contained in IfcBuildingStorey: OK
+Elements Referenced in IfcBuildingStorey: OK
+Elements with Type and Material: OK
+IfcCovering wihtout Aggregation: 2tyFVL37bC98OaiU8x28HQ (#605)
+Choose element to bind the covering to (enter GUID):
+1fvduOu4LCIxab6Glf9OVt
+Loose IfcCovering: OK
+Model Healing done
+New file in:C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\20230405_25_PrototypeTest_Coverings_HealingAllTypes.ifc

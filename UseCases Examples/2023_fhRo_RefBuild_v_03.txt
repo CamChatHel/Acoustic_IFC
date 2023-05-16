@@ -1,0 +1,50 @@
+Welcome to Model Healing for Junction Analysis!
+Please choose the path and filename you want to analyse.
+Selected File: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall.ifc
+Continue with this file? Yes (y) or No (n)
+y
+IfcBuildingStorey: OK
+Elements Contained in IfcBuildingStorey: OK
+Element GUID: 0K8HxGmSX0h99vKkLD8iTG(#7424) created NEW reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 0K8HxGmSX0h99vKkLD8iTG(#7424) created NEW reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 0K8HxGmSX0h99vKkLD8iTG(#7424) created NEW reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 0K8HxGmSX0h99vKkLD8iTG(#7424) created NEW reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 0K8HxGmSX0h99vKkLD8jdj(#7585) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 0K8HxGmSX0h99vKkLD8jdj(#7585) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 0K8HxGmSX0h99vKkLD8jdj(#7585) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 0K8HxGmSX0h99vKkLD8jdj(#7585) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 0K8HxGmSX0h99vKkLD8jZy(#7667) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 0K8HxGmSX0h99vKkLD8jZy(#7667) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 0K8HxGmSX0h99vKkLD8jZy(#7667) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 0K8HxGmSX0h99vKkLD8jZy(#7667) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 0K8HxGmSX0h99vKkLD8jXv(#7749) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 0K8HxGmSX0h99vKkLD8jXv(#7749) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 0K8HxGmSX0h99vKkLD8jXv(#7749) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 01I$HxBHX3xOzQyLCWMlF9(#8389) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 01I$HxBHX3xOzQyLCWMlF9(#8389) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 01I$HxBHX3xOzQyLCWMlF9(#8389) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 01I$HxBHX3xOzQyLCWMlF9(#8389) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 3AfLO1IND5gOiRqDO8$FqM(#8471) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 3AfLO1IND5gOiRqDO8$FqM(#8471) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 3AfLO1IND5gOiRqDO8$FqM(#8471) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 3AfLO1IND5gOiRqDO8$FqM(#8471) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 3AfLO1IND5gOiRqDO8$FrT(#8629) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 3AfLO1IND5gOiRqDO8$FrT(#8629) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 3AfLO1IND5gOiRqDO8$FrT(#8629) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 3AfLO1IND5gOiRqDO8$FrT(#8629) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fpc(#8716) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fpc(#8716) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fpc(#8716) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fpc(#8716) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fki(#8803) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fki(#8803) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fki(#8803) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Element GUID: 3AfLO1IND5gOiRqDO8$Fki(#8803) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdwA3(#183)
+Element GUID: 25AilOoQz5khACYYdSYdxX(#12360) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZdl5n(#159)
+Element GUID: 25AilOoQz5khACYYdSYdxX(#12360) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZd$h9(#171)
+Element GUID: 25AilOoQz5khACYYdSYdxX(#12360) added to old reference to IfcBuildingStorey 1xRc$zcqXFoAOJyVNZduse(#177)
+Elements Referenced in IfcBuildingStorey: OK
+Elements with Type and Material: OK
+Loose IfcCovering: OK
+Model Healing done
+New file in:C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall_Healing.ifc

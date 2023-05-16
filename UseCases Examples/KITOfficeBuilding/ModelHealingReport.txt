@@ -1,0 +1,23 @@
+Welcome to Model Healing for Junction Analysis!
+Please choose the path and filename you want to analyse.
+Selected File: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\KIT_OfficeBuilding\KIT_PhantasyOfficeBuilding_IFC4.ifc
+Continue with this file? Yes (y) or No (n)
+y
+IfcBuildingStorey: OK
+Elements Contained in IfcBuildingStorey: OK
+Elements Referenced in IfcBuildingStorey: OK
+Elements with Type but Missing Material: START Healing
+This elementtype Kalksandstein 2816491304 300(0BezZZGL$xxe81MJTdijg6) has no MaterialLayer:
+Added MaterialLayerSet to Elementtype 0BezZZGL$xxe81MJTdijg6
+This elementtype Kalksandstein 2816491304 200(10GAJQvPzaZNwkrZxYo_B_) has no MaterialLayer:
+Added MaterialLayerSet to Elementtype 10GAJQvPzaZNwkrZxYo_B_
+This elementtype Kalksandstein 2774059904 300(0K8_DnJIPfDxrxx$umnq$Y) has no MaterialLayer:
+Added MaterialLayerSet to Elementtype 0K8_DnJIPfDxrxx$umnq$Y
+This elementtype Stahlbeton 2747937872 300(3mhyERdEmjVIEi14hWdljj) has no MaterialLayer:
+Added MaterialLayerSet to Elementtype 3mhyERdEmjVIEi14hWdljj
+This elementtype Aluminium 131198 380(3seywKe8mK$$6vh3eemg2r) has no MaterialLayer:
+Added MaterialLayerSet to Elementtype 3seywKe8mK$$6vh3eemg2r
+Elements with Type and Material: OK
+Loose IfcCovering: OK
+Model Healing done
+New file in:C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\KIT_OfficeBuilding\KIT_PhantasyOfficeBuilding_IFC4_HealingAllTypes.ifc

@@ -1,0 +1,16 @@
+Welcome to Model Healing for Junction Analysis!
+Please choose the path and filename you want to analyse.
+Selected File: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall_multipleREferences.ifc
+Continue with this file? Yes (y) or No (n)
+y
+IfcBuildingStorey: OK
+Elements Contained in IfcBuildingStorey: OK
+Correction of Multiple References in IfcBuildingStorey1xRc$zcqXFoAOJyVNZdl5n
+Correction of Multiple References in IfcBuildingStorey1xRc$zcqXFoAOJyVNZd$h9
+Correction of Multiple References in IfcBuildingStorey1xRc$zcqXFoAOJyVNZduse
+Correction of Multiple References in IfcBuildingStorey1xRc$zcqXFoAOJyVNZdwA3
+Elements Referenced in IfcBuildingStorey: OK
+Elements with Type and Material: OK
+Loose IfcCovering: OK
+Model Healing done
+New file in:C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall_multipleREferences_Healing.ifc
