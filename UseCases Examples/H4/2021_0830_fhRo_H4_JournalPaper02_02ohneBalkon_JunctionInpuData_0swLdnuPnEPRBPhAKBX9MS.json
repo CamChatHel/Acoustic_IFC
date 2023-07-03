@@ -1,0 +1,247 @@
+{
+  "Name": "Inputdata",
+  "AllJunctions": [
+    {
+      "ID": "2d9Qs_x4T9lRyugPedmEbO",
+      "SeparatingElementID": "0swLdnuPnEPRBPhAKBX9MS",
+      "CommonLength": 3.9400000000000119,
+      "TypeOfJunction": "Xv2d1c3d4",
+      "TypeOfFastener": "screws",
+      "BuildingElementsID": [
+        {
+          "ElementID": "0swLdnuPnEPRBPhAKBX9MS",
+          "ElementName": "Geschossdecke:BSH DE 200:529416",
+          "ElementMaterial": "0.2_Holz - Leno HR",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "3Gu$FppSz81v_$kmG_xEpz",
+          "ElementName": "Basiswand:H4 NH Block 100 WTW:538687",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.018_Gipsfaserplatte;0.1_Holz - Leno HR;0.02_Standard - Luftschicht;0.1_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "0qbJ9KlJbDohyM1h$iVWSE",
+          "ElementName": "Geschossdecke:BSH DE 200:706259",
+          "ElementMaterial": "0.2_Holz - Leno HR",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "3zj1mBwqfAdeKX2u8dRXtn",
+          "ElementName": "Basiswand:H4 NH Block 100 WTW:546906",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.018_Gipsfaserplatte;0.1_Holz - Leno HR;0.02_Standard - Luftschicht;0.1_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        }
+      ],
+      "TransmissionPaths": [
+        {
+          "pathName": "Df",
+          "GlobalId": "07kpvLilz6$hDDnHeytvb7",
+          "Is_i": "0swLdnuPnEPRBPhAKBX9MS",
+          "Is_j": "3Gu$FppSz81v_$kmG_xEpz"
+        },
+        {
+          "pathName": "Fd",
+          "GlobalId": "1VlSPZcm97RwG42$Z8FFGM",
+          "Is_i": "3Gu$FppSz81v_$kmG_xEpz",
+          "Is_j": "0swLdnuPnEPRBPhAKBX9MS"
+        },
+        {
+          "pathName": "Ff",
+          "GlobalId": "1JT7KCeTDDhxf2UYEN3LZh",
+          "Is_i": "3Gu$FppSz81v_$kmG_xEpz",
+          "Is_j": "3zj1mBwqfAdeKX2u8dRXtn"
+        }
+      ]
+    },
+    {
+      "ID": "12r5j3BCbETRKGlFtlfGGy",
+      "SeparatingElementID": "0swLdnuPnEPRBPhAKBX9MS",
+      "CommonLength": 3.9400000000000119,
+      "TypeOfJunction": "Tv2d1d4",
+      "TypeOfFastener": "screws",
+      "BuildingElementsID": [
+        {
+          "ElementID": "0swLdnuPnEPRBPhAKBX9MS",
+          "ElementName": "Geschossdecke:BSH DE 200:529416",
+          "ElementMaterial": "0.2_Holz - Leno HR",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "0l9A8DkyD01Q5byZ$rT7Mx",
+          "ElementName": "Basiswand:H4 NH Block 140 AW:530245",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.14_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "0l9A8DkyD01Q5byZ$rT7Mn",
+          "ElementName": "Basiswand:H4 NH Block 140 AW:530255",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.14_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        }
+      ],
+      "TransmissionPaths": [
+        {
+          "pathName": "Df",
+          "GlobalId": "260lRwHZfFYObDRhzdrT6V",
+          "Is_i": "0swLdnuPnEPRBPhAKBX9MS",
+          "Is_j": "0l9A8DkyD01Q5byZ$rT7Mx"
+        },
+        {
+          "pathName": "Fd",
+          "GlobalId": "3Bhh94mLfFpBqP79ugdjrG",
+          "Is_i": "0l9A8DkyD01Q5byZ$rT7Mx",
+          "Is_j": "0swLdnuPnEPRBPhAKBX9MS"
+        },
+        {
+          "pathName": "Ff",
+          "GlobalId": "1wV4Wh4W19sReQ7EHZxCqe",
+          "Is_i": "0l9A8DkyD01Q5byZ$rT7Mx",
+          "Is_j": "0l9A8DkyD01Q5byZ$rT7Mn"
+        }
+      ]
+    },
+    {
+      "ID": "3AU6GqolLFtQPp01WirwZ9",
+      "SeparatingElementID": "0swLdnuPnEPRBPhAKBX9MS",
+      "CommonLength": 6.93,
+      "TypeOfJunction": "Tv2d1d4",
+      "TypeOfFastener": "screws",
+      "BuildingElementsID": [
+        {
+          "ElementID": "0swLdnuPnEPRBPhAKBX9MS",
+          "ElementName": "Geschossdecke:BSH DE 200:529416",
+          "ElementMaterial": "0.2_Holz - Leno HR",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "0l9A8DkyD01Q5byZ$rT7Mr",
+          "ElementName": "Basiswand:H4 NH Block 140 AW:530251",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.14_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "0l9A8DkyD01Q5byZ$rT7Mh",
+          "ElementName": "Basiswand:H4 NH Block 140 AW:530261",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.14_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        }
+      ],
+      "TransmissionPaths": [
+        {
+          "pathName": "Df",
+          "GlobalId": "17xNxDReL9YOLBPGm2bBa$",
+          "Is_i": "0swLdnuPnEPRBPhAKBX9MS",
+          "Is_j": "0l9A8DkyD01Q5byZ$rT7Mr"
+        },
+        {
+          "pathName": "Fd",
+          "GlobalId": "24nhgp$Pf6JBjWYIrVNyR$",
+          "Is_i": "0l9A8DkyD01Q5byZ$rT7Mr",
+          "Is_j": "0swLdnuPnEPRBPhAKBX9MS"
+        },
+        {
+          "pathName": "Ff",
+          "GlobalId": "2EoSVgAif0_vE8ZhKkQ0qs",
+          "Is_i": "0l9A8DkyD01Q5byZ$rT7Mr",
+          "Is_j": "0l9A8DkyD01Q5byZ$rT7Mh"
+        }
+      ]
+    },
+    {
+      "ID": "1jtLqzYoT9eRTGuzjCkGhF",
+      "SeparatingElementID": "0swLdnuPnEPRBPhAKBX9MS",
+      "CommonLength": 6.93,
+      "TypeOfJunction": "Xv2d1c3d4",
+      "TypeOfFastener": "screws",
+      "BuildingElementsID": [
+        {
+          "ElementID": "0swLdnuPnEPRBPhAKBX9MS",
+          "ElementName": "Geschossdecke:BSH DE 200:529416",
+          "ElementMaterial": "0.2_Holz - Leno HR",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "3Gu$FppSz81v_$kmG_xErq",
+          "ElementName": "Basiswand:H4 NH Block 140 IW:539062",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.018_Gipsfaserplatte;0.14_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "0qbJ9KlJbDohyM1h$iVWR3",
+          "ElementName": "Geschossdecke:BSH DE 200:706334",
+          "ElementMaterial": "0.2_Holz - Leno HR",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        },
+        {
+          "ElementID": "3zj1mBwqfAdeKX2u8dRXtt",
+          "ElementName": "Basiswand:H4 NH Block 140 IW:546908",
+          "ElementMaterial": "0.018_Gipsfaserplatte;0.018_Gipsfaserplatte;0.14_Holz - Leno HR;0.018_Gipsfaserplatte;0.018_Gipsfaserplatte",
+          "Covering1ID": null,
+          "Covering1Material": null,
+          "Covering2ID": null,
+          "Covering2Material": null
+        }
+      ],
+      "TransmissionPaths": [
+        {
+          "pathName": "Df",
+          "GlobalId": "3rVCgMH21F_eA6DA2ZbtKa",
+          "Is_i": "0swLdnuPnEPRBPhAKBX9MS",
+          "Is_j": "3Gu$FppSz81v_$kmG_xErq"
+        },
+        {
+          "pathName": "Fd",
+          "GlobalId": "2_bG7iu2D2lfYCDAzL1$UF",
+          "Is_i": "3Gu$FppSz81v_$kmG_xErq",
+          "Is_j": "0swLdnuPnEPRBPhAKBX9MS"
+        },
+        {
+          "pathName": "Ff",
+          "GlobalId": "2kyCJ5L1LCKQkiRRT7HS4L",
+          "Is_i": "3Gu$FppSz81v_$kmG_xErq",
+          "Is_j": "3zj1mBwqfAdeKX2u8dRXtt"
+        }
+      ]
+    }
+  ]
+}
