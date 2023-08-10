@@ -6,4 +6,4 @@ im September 2023 an der TU München.
 ![BildErsteSeite](/Deckblatt.PNG)
 
 Dieser Ordner beinhaltet die Prototypen für die [Stoßstellenanalyse](Prototypes/JunctionAnalysis/Prototype01), das [ModealHealing](Prototypes/ModelHealing/xbimModelHealing01) und das [Fachmodell](Prototypes/AcousticModel).
-Zusätzlich sind die [Fallbeispiele](\UseCases Examples) hinterlegt.
+Zusätzlich sind die [Fallbeispiele](/UseCases%20Examples/) hinterlegt.
