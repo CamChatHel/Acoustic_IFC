@@ -1,8 +1,9 @@
 
 # Fachmodell Akustik
 
-Diese .sln beinhaltet den Viewer um das Fachmodell Akustik darzustellen und zu Dateien zu verknüpfen. Es baut auf XbimWindowsUI von xBim Toolkit auf. Mehr Informationen sind im Ordner  Prototypes\AcousticModel\XbimWindowsUI-master vorhanden.
-![XbimXplorer UI](AnsichtFachmodell.png)
+Diese .sln beinhaltet den Viewer um das Fachmodell Akustik darzustellen und zu Dateien zu verknüpfen. Es baut auf XbimWindowsUI von xBim Toolkit auf.
+Mehr Informationen sind im Ordner [XbimWindowsUI-master](https://github.com/CamChatHel/Acoustic_IFC/tree/main/Prototypes/AcousticModel/XbimWindowsUI-master) vorhanden.
+(Prototypes/AcousticModel/AnsichtFachmodell.PNG)
 
 
 # XbimWindowsUI
