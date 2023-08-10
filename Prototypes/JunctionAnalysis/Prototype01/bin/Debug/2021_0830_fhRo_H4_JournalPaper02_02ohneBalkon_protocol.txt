@@ -1,0 +1,142 @@
+06.06.2023 13:45:08
+Welcome to Junction Analysis!
+Please choose the path and filename you want to analyse.
+Selected File: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\2021_0830_fhRo_H4_JournalPaper02_02ohneBalkon.ifc
+Selected Element GUID: 3zj1mBwqfAdeKX2u8dRXtn
+------------------------------------------------------------------------------ 
+WARNING: No space Boundaries related to the selected element
+Should we consider only the core layers? yes(y) or no(n)
+n
+########################################### 
+Echte Flanken: 
+#87852: Wall, Distance to SE: 0 in Xplus-direction
+#4618: Wall, Distance to SE: 0 in Xminus-direction
+#12614: Wall, Distance to SE: 0.2 in Zminus-direction
+#17745: Wall, Distance to SE: 0 in Yminus-direction
+#18022: Wall, Distance to SE: 0 in Yplus-direction
+#19102: Wall, Distance to SE: 0.359999999999999 in Zplus-direction
+#2913: Slab, Distance to SE: 0 in Zminus-direction
+#3011: Slab, Distance to SE: 0.16 in Zplus-direction
+#88335: Slab, Distance to SE: 0 in Zminus-direction
+Box:1
+[0,1] Xminus. 0
+Box:1
+[1,0] Xplus. 0
+Box:3
+[0,1] Yminus. 0
+Box:3
+[0,2] Xplus. 0
+Box:3
+[0,3] Yplus. 0
+Box:3
+[1,0] Yplus. 0
+Box:3
+[1,2] Yplus. 0
+Box:3
+[1,3] Yplus. 0.29
+Box:3
+[2,0] Xminus. 0
+Box:3
+[2,1] Yminus. 0
+Box:3
+[2,3] Yplus. 0
+Box:3
+[3,0] Yminus. 0
+Box:3
+[3,1] Yminus. 0.29
+Box:3
+[3,2] Yminus. 0
+Box:4
+[0,1] Zminus. 0
+Box:4
+[0,2] Zminus. 0.2
+Box:4
+[0,3] Zminus. 0
+Box:4
+[1,0] Zplus. 0
+Box:4
+[1,2] Zminus. 0
+Box:4
+[1,3] Xminus. 0
+Box:4
+[2,0] Zplus. 0.2
+Box:4
+[2,1] Zplus. 0
+Box:4
+[2,3] Zplus. 0
+Box:4
+[3,0] Zplus. 0
+Box:4
+[3,1] Yminus. 0
+Box:4
+[3,2] Zminus. 0
+Box:6
+[0,1] Zplus. 0.16
+Box:6
+[0,2] Zplus. 0.359999999999999
+Box:6
+[1,0] Zminus. 0.16
+Box:6
+[1,2] Zplus. 0
+Box:6
+[2,0] Zminus. 0.359999999999999
+Box:6
+[2,1] Zminus. 0
+Connection Zone Matrix: 
+None,Short,None,Short
+Middle,None,None,None
+None,None,None,None
+Middle,None,None,None
+DirectionElements:
+n,m,None,m
+Junction Type:
+ErrorNoCorrectDirection
+Connection Zone Matrix: 
+None,None,None,None
+None,None,None,None
+None,None,None,None
+None,None,None,None
+DirectionElements:
+n,None,n,None
+Junction Type:
+ErrorNoCorrectDirection
+Connection Zone Matrix: 
+None,Border,Short,Border
+Short,None,Short,Zero
+Short,Border,None,Border
+Short,Zero,Short,None
+DirectionElements:
+n,m,n,m
+Junction Type:
+Xh2d1c3d4
+Connection Zone Matrix: 
+None,Short,Zero,Short
+Border,None,Border,Short
+Zero,Short,None,Short
+Border,Short,Border,None
+DirectionElements:
+n,o,n,o
+Junction Type:
+Xv2d1c3d4
+Connection Zone Matrix: 
+None,None,None,None
+None,None,None,None
+None,None,None,None
+None,None,None,None
+DirectionElements:
+n,None,n,None
+Junction Type:
+ErrorNoCorrectDirection
+Connection Zone Matrix: 
+None,Short,Zero,Short
+Middle,None,Middle,None
+Zero,Short,None,Short
+Middle,None,Middle,None
+DirectionElements:
+n,o,n,o
+Junction Type:
+Xv2d13d4
+Write JSON-file
+JSON with junction was saved in: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\2021_0830_fhRo_H4_JournalPaper02_02ohneBalkon_JunctionInpuData_3zj1mBwqfAdeKX2u8dRXtn.json
+Add JSON-file to the selected element? Yes(y)
+JSON-file: C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\2021_0830_fhRo_H4_JournalPaper02_02ohneBalkon_mitAnhangJunctionInpuData.ifc
