@@ -65,7 +65,7 @@ namespace Prototype01
             //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\2021_0830_fhRo_H4_JournalPaper02_02ohneBalkon.ifc"; //Trennwand: 3zj1mBwqfAdeKX2u8dRXtn , Decke: 0swLdnuPnEPRBPhAKBX9MS
            // string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\Variante02\2021_06_fhRo_H4_Tst4_MitSpaceBoundaries-IFC4AddedSB03.ifc";
             //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\28_VerschobeneRaeume20230612.ifc";
-            string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\KIT_OfficeBuilding\KIT_PhantasyOfficeBuilding_IFC4.ifc";
+            string filename = @"C:\Users\chca426\Documents\GitHub\OldDissStuff\OldDissStuff\Modelle\UseCases\KIT_OfficeBuilding\KIT_PhantasyOfficeBuilding_IFC4.ifc";
 
 
             string SaveConsoleToTxtFile = DateTime.Now.ToString() ;

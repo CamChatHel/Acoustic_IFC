@@ -201,13 +201,13 @@ namespace Prototype01
                     {
                         CommonLength = Math.Round(selectedElement.CoreMax.Y - selectedElement.CoreMin.Y);
                         if ((ListOfJunctionBoxes[0].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[0].Junction != JunctionType.JunctionTypeError)
-                            && (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[0] = JB1, [1] = JB2
+                            || (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[0] = JB1, [1] = JB2
                         {
                             var length =Math.Round(Math.Abs(ListOfJunctionBoxes[0].FE1.CoreMax.Y - ListOfJunctionBoxes[1].FE1.CoreMax.Y) ,2);
                             CommonLength = Math.Min(CommonLength, length);
                         }
                         else if ((ListOfJunctionBoxes[2].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[2].Junction != JunctionType.JunctionTypeError)
-                            && (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[2] = JB3, [1] = JB2
+                            || (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[2] = JB3, [1] = JB2
                         {
                             var length =Math.Round( Math.Abs(ListOfJunctionBoxes[1].FE1.CoreMin.Y - ListOfJunctionBoxes[1].FE1.CoreMax.Y),2);
                             CommonLength = Math.Min(CommonLength, length);
@@ -217,13 +217,13 @@ namespace Prototype01
                     {
                         CommonLength = Math.Round(Math.Abs(selectedElement.CoreMax.X - selectedElement.CoreMin.X),2);
                         if ((ListOfJunctionBoxes[0].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[0].Junction != JunctionType.JunctionTypeError)
-                           && (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[0] = JB1, [1] = JB2
+                           || (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[0] = JB1, [1] = JB2
                         {
                             var length = Math.Round(Math.Abs(ListOfJunctionBoxes[0].FE1.CoreMax.X - ListOfJunctionBoxes[1].FE1.CoreMax.X),2);
                             CommonLength = Math.Min(CommonLength, length);
                         }
                         else if ((ListOfJunctionBoxes[2].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[2].Junction != JunctionType.JunctionTypeError)
-                            && (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[2] = JB3, [1] = JB2
+                            || (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[2] = JB3, [1] = JB2
                         {
                             var length = Math.Round(Math.Round(ListOfJunctionBoxes[2].FE1.CoreMin.X - ListOfJunctionBoxes[1].FE1.CoreMax.X),2);
                             CommonLength = Math.Min(CommonLength, length);
@@ -238,13 +238,13 @@ namespace Prototype01
                 {
                     CommonLength = Math.Round(selectedElement.Max.X - selectedElement.Min.X, 2);
                     if ((ListOfJunctionBoxes[3].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[3].Junction != JunctionType.JunctionTypeError)
-                           && (ListOfJunctionBoxes[4].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[4].Junction != JunctionType.JunctionTypeError)) //[3] = JB4, [4] = JB5
+                           || (ListOfJunctionBoxes[4].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[4].Junction != JunctionType.JunctionTypeError)) //[3] = JB4, [4] = JB5
                     {
                         var length =Math.Round( Math.Abs(ListOfJunctionBoxes[3].FE1.CoreMax.X - ListOfJunctionBoxes[4].FE1.CoreMax.X),2);
                         CommonLength = Math.Min(CommonLength, length);
                     }
                     else if ((ListOfJunctionBoxes[5].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[5].Junction != JunctionType.JunctionTypeError)
-                        && (ListOfJunctionBoxes[4].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[4].Junction != JunctionType.JunctionTypeError)) //[4] = JB5, [5] = JB6
+                        || (ListOfJunctionBoxes[4].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[4].Junction != JunctionType.JunctionTypeError)) //[4] = JB5, [5] = JB6
                     {
                         var length = Math.Round(Math.Abs(ListOfJunctionBoxes[5].FE1.CoreMin.X - ListOfJunctionBoxes[4].FE1.CoreMax.X));
                         CommonLength = Math.Min(CommonLength, length);
@@ -254,13 +254,13 @@ namespace Prototype01
                 {
                     CommonLength = Math.Round(selectedElement.Max.Y - selectedElement.Min.Y, 2);
                     if ((ListOfJunctionBoxes[0].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[0].Junction != JunctionType.JunctionTypeError)
-                            && (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[0] = JB1, [1] = JB2
+                            || (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[0] = JB1, [1] = JB2
                     {
                         var length = Math.Round(Math.Abs(ListOfJunctionBoxes[0].FE1.CoreMax.Y - ListOfJunctionBoxes[1].FE1.CoreMax.Y),2);
                         CommonLength = Math.Min(CommonLength, length);
                     }
                     else if ((ListOfJunctionBoxes[2].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[2].Junction != JunctionType.JunctionTypeError)
-                        && (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[2] = JB3, [1] = JB2
+                        || (ListOfJunctionBoxes[1].Junction != JunctionType.ErrorNoCorrectDirection || ListOfJunctionBoxes[1].Junction != JunctionType.JunctionTypeError)) //[2] = JB3, [1] = JB2
                     {
                         var length = Math.Round(Math.Abs(ListOfJunctionBoxes[1].FE1.CoreMin.Y - ListOfJunctionBoxes[1].FE1.CoreMax.Y),2);
                         CommonLength = Math.Min(CommonLength, length);

@@ -1,0 +1,6 @@
+Starting Model Healing for Model: C:\Users\chca426\Documents\GitHub\Acoustic_IFC\UseCases Examples\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall_multipleREferences.ifc
+Elements Contained in IfcBuildingStorey: OK
+Healing part 03: No Elements without ElementType.
+Healing part 03: All Elements has ElementType.
+ModelHealing 04: 
+End of Model Healing

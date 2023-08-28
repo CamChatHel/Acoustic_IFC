@@ -43,7 +43,8 @@ namespace xbimModelHealing01
             //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall.ifc";
             //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\2021_0830_fhRo_H4_bearbeitet_JournalPaper02.ifc";
             //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\2021_fhRo_RefBuild_v_03_stosstellen.ifc"
-            string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\33_ModelHealingGeschosse.ifc";
+            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\33_ModelHealingGeschosse.ifc";
+            string filename = @"C:\Users\chca426\Documents\GitHub\Acoustic_IFC\UseCases Examples\ModelHealing\2021_fhRo_RefBuild_v_03_ifcCurtainwall_multipleREferences.ifc";
 
             Console.WriteLine("Welcome to Model Healing for Junction Analysis!");
             Console.WriteLine("Please choose the path and filename you want to analyse.");
