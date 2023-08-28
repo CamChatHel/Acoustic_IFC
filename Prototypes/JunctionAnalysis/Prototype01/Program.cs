@@ -39,32 +39,7 @@ namespace Prototype01
 
         static void Main(string[] args)
         {
-            // string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\23_20200604CamilleExport2.ifc";   // -> DATEI 1
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\09_XStoss_horizontal_1.ifc";  //Verbindungen mit RelConnects -> DATEI 2
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\23_20200604 Camille.ifc"; // Datei 3 -> reduziertes Model
-            // string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\23_20200604CamilleExport4.ifc"; // Datei 4 -> neuer export
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\24_PrototypeTest - Kopie.ifc";   // -> DATEI 5
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\26_WandmitSchichten04_loadBearingHinzugefuegt.ifc";   // -> DATEI 6
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\24_PrototypeTest02.ifc";   // -> DATEI 7
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\24_PrototypeTest_mitFassade04_HealingAllTypes.ifc";   // -> DATEI 8 (Version 05 hat für alle Elemente Types
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\26_WandmitSchichten02 - Kopie.ifc"; //-> DAtei9
-            //string filename = @"\\141.60.202.49\private\01_FuE\08_SchalluSchwing\99_Messungen_Modelle_Anderes\ReferenzProzess\20211405_Referenzmodell_RefBuild_v_01\2021_fhRo_RefBuild_v_03_coreLayer.ifc";   // -> DATEI 10, REferenzmodell v01
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\Referenzmodelle\2021_fhRo_RefBuild_v_04_ifcCoverings.ifc";   // -> DATEI 11, REferenzmodell v01
-            //string filename = @"C:\Users\chca426\Documents\SchalluSchwing\IFC-Beispiele\buildingSMARTBeispielWallElementedCase.ifc"; //Datei 13, Wand elementiert
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\Referenzmodelle\2021_07_29_Tsts_H4\2021_0830_fhRo_H4_bearbeitet_JournalPaper02.ifc"; // Datei 14: H4 Use Journal Paper
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\27_TStoss_horizontal_Varainten02.ifc";  // Datei 15: einzelen stossstellen
-            //string filename = @"H:\Promotion\Veröffentlichungen\2022_JournalPaperAdvancedEngineeringInformatics\useCase H4\2021_0830_fhRo_H4_JournalPaper02_02ohneBalkon.ifc"; //Datei 16 -> H4 fuer journal paper
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\28_VerschobeneRaeume_IFC4RV_1stLevel_HealingAllTypes.ifc";   // -> DATEI 17 
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\29_StossParalleleWand.ifc"; //Datei18
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\Referenzmodelle\20210921_Stocker_WoodBuilding.ifc";   // -> DATEI 12, Trennwand: 17o_XuNmTCJQJLid67NoQX
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\Referenzmodelle\20210721_Lauschke_HolzbauIfc4_bearbeitet.ifc";   // DATEI 20 : Test mit Realizingelements
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\KIT_OfficeBuilding\KIT_PhantasyOfficeBuilding_IFC4_HealingAllTypes.ifc"; //Datei 21
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\revit\29_StossParalleleWand.ifc"; //Datei 22
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\2021_fhRo_RefBuild_v_03_stosstellen_Healing.ifc"; //Datei 23 Test mit Stossstellen
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\2021_fhRo_RefBuild_v_02_stosstellenRefView_Healing02_Healing.ifc";
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\2021_0830_fhRo_H4_JournalPaper02_02ohneBalkon.ifc"; //Trennwand: 3zj1mBwqfAdeKX2u8dRXtn , Decke: 0swLdnuPnEPRBPhAKBX9MS
-           // string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\THRo_H4\Variante02\2021_06_fhRo_H4_Tst4_MitSpaceBoundaries-IFC4AddedSB03.ifc";
-            //string filename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\UseCases\28_VerschobeneRaeume20230612.ifc";
+
             string filename = @"C:\Users\chca426\Documents\GitHub\OldDissStuff\OldDissStuff\Modelle\UseCases\KIT_OfficeBuilding\KIT_PhantasyOfficeBuilding_IFC4.ifc";
 
 
@@ -102,34 +77,7 @@ namespace Prototype01
 
             bool UseOnlyCorelayer = false; //true= yes, check for corelayers, false= ignore corelayer stuff
 
-            ////DataTable to save flanking elements
-            //DataTable tableFlankingElements = new DataTable();
-            //tableFlankingElements.Columns.Add("ID", typeof(int));
-            //tableFlankingElements.Columns.Add("EntityLabel", typeof(string));
-            //tableFlankingElements.Columns.Add("Myelement", typeof(MyElement));
-
-            //Selected Element
-            //string elementID = "11hR$VkvbCy9dUxCK$EsVu";  // 11hR$VkvbCy9dUxCK$EsVu = Trennwand (#1145)  // 2liQ0BYiL3QwLQLcRDpIgN = slab (#405) // -> zu DATEI 1
-            //string elementID = "0T1$TlhUf8_f2ueO1CDdzG";  // -> zu DATEI 2
-            //string elementID = "11hR$VkvbCy9dUxCK$EsVu";  // (11hR$VkvbCy9dUxCK$EsVu  -> wall) -> zu DATEI 3, #598
-            //string elementID = "11hR$VkvbCy9dUxCK$EsVu"; // -> zu Datei 4
-            //string elementID = "1fvduOu4LCIxab6Glf9OVH";  // Trenndecke (#1118): 1fvduOu4LCIxab6Glf9OVH // Trennwand(#968):  11hR$VkvbCy9dUxCK$EsVu // -> zu DATEI 5
-            //string elementID = "2_0FU55uL7_PwPLl9SywKX";  // Wand (#229): 2_0FU55uL7_PwPLl9SywKX  -> zu DATEI 6
-            //string elementID = "11hR$VkvbCy9dUxCK$EsVu";  // Trenndecke (#1118): 1fvduOu4LCIxab6Glf9OVH // Trennwand(#1540):  11hR$VkvbCy9dUxCK$EsVu // -> zu DATEI 7
-            // string elementID = "11hR$VkvbCy9dUxCK$EsVu";  // Trenndecke (#1789): 1fvduOu4LCIxab6Glf9OVH // Trennwand(#1546):  11hR$VkvbCy9dUxCK$EsVu // -> zu DATEI 8
-            //string elementID = "2_0FU55uL7_PwPLl9SywKX";  //CLT-Wand mit Schichten zu 26_WandmitSchichten03.ifc zu Datei 9
-            //string elementID = "0i8nVeTTf6ox2YVT2SRFFG"; //zu Datei 10 -> Wall #2530 (0i8nVeTTf6ox2YVT2SRFFG) und Datei 11
-            //string elementID = "2ucZRLBGP4uxZW$9i1VAZ8"; //zu Datei 13 nur eine Wand
-            //string elementID = "3Gu$FppSz81v_$kmG_xEpz"; // zu Datei 14: Trennwand 3Gu$FppSz81v_$kmG_xEpz
-            //string elementID = "0XQ0wCR094wOEfFSEbZNrh";  // zu Datei 15
-            //string elementID = "0swLdnuPnEPRBPhAKBX9MS";  // zu Datei 16 -Y H4 Decke fuer Journal Paper
-            //string elementID = "2iiXkdgjbBg8WeQhDmT02m"; //zu Datei 17  Trennwand mit 2 Räumen: 2iiXkdgjbBg8WeQhDmT02m ; Trennwand mit 3 Räumen: 2iiXkdgjbBg8WeQhDmT02m
-            //string elementID = "2356lOatvCag54nFb8uly1"; //zu Datei 18
-            //string elementID = "2wXoso8_r4TfvwrFGaJp1J"; //zu Datei 12, 06.07.2021: Trennwand: 3rYQh0hp15IfC5Nwvt7z6P, trenndecke: / Datei vom07.07.2021: 3M$RbC7_r3LQJZgyqFMOhx
-            //string elementID = "1FTcjgX0T7t9VWuk$4y3aS"; //zu Datei 20
-            //string elementID = "15DaMtku1EowtkGqYps1Sn"; // zu Datei 21
-            //string elementID = "2356lOatvCag54nFb8uly1"; // zu Datei 22
-            string elementID = "3zj1mBwqfAdeKX2u8dRXtn"; // Wand: 3zj1mBwqfAdeKX2u8dRXtn Decke:0swLdnuPnEPRBPhAKBX9MS Variante02: Trennwand: 3zj1mBwqfAdeKX2u8dRXtn
+            string elementID = "15DaMtku1EowtkGqYps1Sn"; // Wand: 3zj1mBwqfAdeKX2u8dRXtn Decke:0swLdnuPnEPRBPhAKBX9MS Variante02: Trennwand: 3zj1mBwqfAdeKX2u8dRXtn
             // ************ Open IFC-model ************ 
             
 
@@ -1420,6 +1368,7 @@ namespace Prototype01
                     {
                         
                         junctionToSave.TypeOfJunction = boxelement.Junction;
+                        
                         boxelement.SetCommonLength(ListOfJunctionBoxes);
                         junctionToSave.CommonLength = boxelement.CommonLength;
                         junctionToSave.TypeOfJunction = boxelement.Junction;
