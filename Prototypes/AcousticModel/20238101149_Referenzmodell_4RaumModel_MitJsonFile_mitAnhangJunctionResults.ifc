@@ -1437,7 +1437,7 @@ DATA;
 #2704=IFCPRESENTATIONLAYERASSIGNMENT('A-FLOR-____-OTLN',$,(#225,#1198,#2379),$);
 #2709=IFCPRESENTATIONLAYERASSIGNMENT('A-ROOF-____-OTLN',$,(#2228),$);
 #2712=IFCPRESENTATIONLAYERASSIGNMENT('A-WALL-____-OTLN',$,(#587,#605,#752,#769,#975,#986,#1044,#1055,#1113,#1124,#1264,#1275,#1333,#1344,#1402,#1413,#1471,#1482,#1540,#1551,#1609,#1620,#1637,#1718,#1729,#1746),$);
-#2713=IFCDOCUMENTINFORMATION('X','Referenzmodell_4RaumModel_junctions','Ergebnisse der stosstellenberechnung aus VBAcoustic','C:\\Users\\chca426\\Documents\\GitHub\\Dissertation\\Modelle\\Referenzmodelle\\MiniReferenzmodell\\Referenzmodell_4RaumModel_junctions.json',$,$,$,$,$,$,$,$,$,$,$,.PUBLIC.,.DRAFT.);
+#2713=IFCDOCUMENTINFORMATION('X','Referenzmodell_4RaumModel_junctions','Ergebnisse der stosstellenberechnung aus VBAcoustic','C:\\Users\\chca426\\Documents\\GitHub\\Acoustic_IFC\\Prototypes\\AcousticModel\\Referenzmodell_4RaumModel_junctions.json',$,$,$,$,$,$,$,$,$,$,$,.PUBLIC.,.DRAFT.);
 #2714=IFCRELASSOCIATESDOCUMENT('3KQCEBs_j7TwugUOE3$hPe',$,$,$,(#123),#2713);
 #2715=IFCDOCUMENTREFERENCE($,$,$,$,#2713);
 #2717=IFCDOCUMENTINFORMATIONRELATIONSHIP($,$,#2713,(),$);

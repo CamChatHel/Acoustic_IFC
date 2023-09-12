@@ -204,7 +204,7 @@ namespace Xbim.WinformsSample
             };
             dlg.ShowDialog(this);
 
-            if (jsonfilename == null) return;
+            if (jsonfilename == null||jsonfilename=="") return;
             
             //string jsonfilename = @"C:\Users\chca426\Documents\GitHub\Dissertation\Modelle\Referenzmodelle\MiniReferenzmodell\Referenzmodell_4RaumModel_junctions.json";
             StreamReader myfile = new StreamReader(jsonfilename);
@@ -322,7 +322,7 @@ namespace Xbim.WinformsSample
                         jsonpath = file;
                         if (jsonpath == null || jsonpath == "") break;
 
-                        if (jsonpath == null || jsonpath == "") return;
+                        
                         StreamReader myfile = new StreamReader(jsonpath);
                         string jsonString = myfile.ReadToEnd();
 
